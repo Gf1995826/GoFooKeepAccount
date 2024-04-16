@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "C:\\Users\\gf199\\.ohos\\config\\auto_debug_GoFooKeepAccount_com.example.gofookeepaccount_2850086000356849545.cer",
+          "storePassword": "0000001BAF51F90C63BF46263A54B3A5CA634184ED312BDBCD81AE2A831C651EF9EB726B1D6B8FB844081F",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B0D3B1C8115C4E68ADFB0F96A514ACD93384DA6A1F39EC6B465B6591ED9E2E3F5015E7372E17A49",
+          "profile": "C:\\Users\\gf199\\.ohos\\config\\auto_debug_GoFooKeepAccount_com.example.gofookeepaccount_2850086000356849545.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "C:\\Users\\gf199\\.ohos\\config\\auto_debug_GoFooKeepAccount_com.example.gofookeepaccount_2850086000356849545.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
